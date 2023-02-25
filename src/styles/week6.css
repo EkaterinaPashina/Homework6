@@ -148,11 +148,12 @@ li {
 }
 
 .container2 {
+    margin-top: 239px;
     display: grid;
     width: 100%;
     height: 1200px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 400px 80px;
+    grid-template-rows: 250px 600px 100px;
     gap: 1 rem;
 }
 
@@ -168,7 +169,6 @@ li {
     text-align: center;
 
     color: #211F54;
-
 }
 
 .con2p2 {
@@ -179,5 +179,130 @@ li {
     margin-left: 396px;
     margin-right: 396px;
 
+    text-align: center;
     color: #6E7191;
+}
+
+.data {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    text-align: center;
+}
+
+.dataimg {
+    width: 240px;
+    height: 240px;
+}
+
+.datap1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #211F54;
+}
+
+.datap2 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 412px;
+
+    color: #6E7191;
+}
+
+.cards{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.cardsimg {
+    width: 270px;
+    height: 240px;
+}
+
+.cardsp1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #211F54;
+}
+
+.cardsp2 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 416px;
+
+    color: #6E7191;
+} 
+
+.vacuum {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    text-align: center;
+}
+
+.vacuumimg {
+    width: 258px;
+    height: 240px;
+}
+
+.vacuump1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #211F54;
+}
+
+.vacuump2 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 394px;
+
+    color: #6E7191;
+}
+
+.buttonservice {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.buttontext1 {
+    background: #0075FF;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    border-radius: 14px;
+    border: none;
+    padding: 26px 38px;
+    margin-left: 110px;
+    margin-top: 0;
+}
+
+.buttontext2 {
+    background: #FFFFFF;
+    color: #211F54;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    border-radius: 14px;
+    border: 2px solid #EFF0F6 ;
+    padding: 26px 38px;
+    margin-left: 110px;
+    margin-top: 0;
 }
