@@ -579,9 +579,9 @@ li {
 .container5 {
     display: grid;
     width: 100%;
-    height:1000px;
+    height: 700px;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 160px 130px 80px 1fr 1fr;
+    grid-template-rows: 160px 130px 90px 110px 100px;
 }
 
 .container5 h2 {
@@ -631,4 +631,68 @@ li {
 .con5img img {
     width: 90%;
     margin-right: 111px;
+}
+
+.cont5num{
+    margin-left: 110px;
+}
+
+.cont5row {
+    display: flex;
+}
+
+.plus {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 66px;
+
+    color: #0075FF;
+}
+
+.boldtext {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+
+    color: #211F54;
+    margin: 0;
+}
+
+.thintext {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #6E7191;
+    margin-top: 3px;
+}
+
+.cont5row1 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+
+.cont5col1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contb{
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+
+.conbut {
+    margin-top: 30px;
+
+    background: #0075FF;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    border-radius: 14px;
+    border: none;
+    padding: 26px 40px;
 }
