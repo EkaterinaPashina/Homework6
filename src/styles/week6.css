@@ -19,6 +19,10 @@
     justify-content: space-around;
 }
 
+.header li:hover {
+    color: #0075FF;
+}
+
 .logo{
     width: 178px;
     height: 42px;
@@ -44,7 +48,11 @@ li {
     margin-left: 334px;
 }
 
-.buttonheader{
+.cart:hover {
+    color: #0075FF;
+}
+
+.buttonheader {
     margin-right: 110px;
     margin-left: 30px;
     
@@ -57,6 +65,11 @@ li {
     border-radius: 14px;
     border: none;
     padding: 17px 24px;
+}
+
+.buttonheader:active {
+    background-color: #05c168;
+    color: #211F54;
 }
 
 .text {
@@ -100,6 +113,11 @@ li {
     margin-top: 0;
 }
 
+.buttontext:active {
+    background-color: #05c168;
+    color: #211F54;
+}
+
 .call {
     width: 71px;
     height: 71px;
@@ -124,6 +142,10 @@ li {
     line-height: 36px;
     color: #211F54;
     margin: 0;
+}
+
+.number:hover {
+    color:#05c168;
 }
 
 .flex-row {
@@ -289,6 +311,11 @@ li {
     margin-top: 0;
 }
 
+.buttontext1:active {
+    background-color: #05c168;
+    color: #211F54;
+}
+
 .buttontext2 {
     background: #FFFFFF;
     color: #211F54;
@@ -302,6 +329,12 @@ li {
     margin-left: 28px;
     margin-top: 0;
 }
+
+.buttontext2:active {
+    background-color: #211f54;
+    color: #cbcddc;
+}
+
 
 .line {
     margin-left: 110px;
@@ -478,6 +511,11 @@ li {
     margin-top: 40px;
     margin-bottom: 40px;
     margin-right: 110px;
+}
+
+.buttoncont4:active {
+    background-color: #211f54;
+    color: #cbcddc;
 }
 
 .con4ri1 {
@@ -695,4 +733,9 @@ li {
     border-radius: 14px;
     border: none;
     padding: 26px 40px;
+}
+
+.conbut:active {
+    background-color: #05c168;
+    color: #211F54;
 }
